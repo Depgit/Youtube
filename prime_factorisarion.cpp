@@ -18,6 +18,7 @@ void prime_factorise(int n){
     }
 }
 
+// optimisation of previous algorithm
 void prime_factorise(int n){
     for(int i=2;i*i<=n;i++){
       if(n%i==0){
