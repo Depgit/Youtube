@@ -14,8 +14,9 @@ void prime_factorise(int n){
          }
        v[i] = ct;
        // for printing value's 
-       cout<<i<<" :"<<cnt<<endl;
+       cout<<i<<" :"<<ct<<endl;
     }
+}
 }
 
 // optimisation of previous algorithm
@@ -28,8 +29,9 @@ void prime_factorise(int n){
          }
        v[i] = ct;
        // for printing value's 
-       cout<<i<<" :"<<cnt<<endl;
+       cout<<i<<" :"<<ct<<endl;
     }
+}
 }
 
 int main(){
